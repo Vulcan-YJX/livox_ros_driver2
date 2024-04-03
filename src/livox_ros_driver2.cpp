@@ -134,7 +134,7 @@ DriverNode::DriverNode(const rclcpp::NodeOptions & node_options)
   this->declare_parameter("publish_freq", 10.0);
   this->declare_parameter("output_data_type", output_type);
   this->declare_parameter("frame_id", "frame_default");
-  this->declare_parameter("user_config_path", "path_default");
+  this->declare_parameter("user_config_path", "../config/MID360_config.json");
   this->declare_parameter("cmdline_input_bd_code", "000000000000001");
   this->declare_parameter("lvx_file_path", "/home/livox/livox_test.lvx");
 
